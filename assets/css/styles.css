@@ -30,6 +30,17 @@ h1 {
     padding: 0 2rem;
 }
 
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;  
+}
+
+.menu-link {
+    font-size: 1.7rem;
+    list-style: none;  
+}
+
 .wrapper-reading {}
 
 .reading {
@@ -40,35 +51,15 @@ h1 {
     color:#D65775;
 }
 
-.section1 {
-    padding: 2rem;
-    min-height: 40vh;
-
-}
-
-.section2 {
-    padding: 2rem;
-    min-height: 40vh;
-    background-color: #167c80;
-    color:#fff;
-}
-
-.section3 {
-    padding: 2rem;
-    min-height: 40vh;
-
-}
-
-.section4 {
-    text-align: center;
+.wrapper-footer {
+    background-color: #1b1d1c;
+    padding: 4rem 2rem 10rem;
+    position: relative;
 }
 
 .wrapper-footer {
     color: #fff;
-    background-color: #1b1d1c;
-    margin: 0 auto;
-    max-width: 1200px;
-    padding: 1rem;
-    text-align: center;
-    position: relative;
+    font-size: 2.62rem;
+    font-family: Poppins;
+    letter-spacing: 1px;
 }
