@@ -13,7 +13,7 @@ html, body {
     width: 100%;
     margin: 0;
     padding: 0;
-    font-size: 1rem;
+    font-size: 18px;
     line-height: 1.25;
 }
 
@@ -60,6 +60,11 @@ h1, .menu, h2, .footer {
 
 .menu-link:hover {
     color: #D65775;
+}
+
+.Title {
+text-decoration: none;
+color: #000;
 }
 
 .project {
@@ -145,4 +150,11 @@ h1, .menu, h2, .footer {
     .project-image {
         width: 40%;
     }
+}
+
+@media (max-width: 33.333333rem) {
+    h1 { 
+        font-size: 1.44rem;
+    } 
+    
 }
