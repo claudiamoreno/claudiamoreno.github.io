@@ -37,7 +37,7 @@ h1, .menu, h2, .footer {
 }
 
 .wrapper {
-    margin: 20 auto;
+    margin: 20px auto;
     max-width: 80rem; /* 1280px */
     padding: 0 2rem;
 }
@@ -118,6 +118,10 @@ h1, .menu, h2, .footer {
     font-size: 2.62rem;
     font-family: Poppins;
     letter-spacing: 1px;
+}
+
+.footer {
+
 }
 
 
