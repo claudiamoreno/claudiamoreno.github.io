@@ -2,6 +2,11 @@
     box-sizing: border-box;
 }
 
+h1, ul, ol, p {
+    margin: 0;
+    padding: 0;
+}
+
 img {
     display: block;
     max-width: 100%;
@@ -21,25 +26,37 @@ body {
     background-color: #fff;
 }
 
-h1 {
-    font-size: 2.62rem;
+h1, .title1 {
+    font-size: 2rem;
     font-weight: 600;
     letter-spacing: 1px;
 }
 
-h1, .menu, h2, .footer {
+h1, .menu, h2, .title1, .cta, .footer {
     font-family: 'Poppins';
 }
 
+.foo {
+    display: block;
+    font-size: 26px;
+    margin: 0 0 .5rem;
+}
+
 .header {
-    height: 100vh;
-    width: 100%;
+    padding: 1rem 0;
+}
+
+.hero {
+    align-items: center;
+    display: flex;
+    min-height: calc(100vh - 74px);
 }
 
 .wrapper {
-    margin: 20px auto;
+    margin: 0 auto;
     max-width: 80rem; /* 1280px */
     padding: 0 2rem;
+    width: 100%;
 }
 
 .menu {
@@ -58,13 +75,20 @@ h1, .menu, h2, .footer {
     transition: color 150ms ease-in-out;
 }
 
+.cta {
+    display:inline-block;
+    font-size: 1rem;
+    margin: 1rem 0 0;
+}
+
 .menu-link:hover {
     color: #D65775;
 }
 
-.Title {
+.Title1 {
 text-decoration: none;
-color: #000;
+color: #fff;
+font-size: 1.444444rem;
 }
 
 .project {
@@ -75,12 +99,18 @@ color: #000;
 }
 
 .project1 {
-    background-color: rgba(191, 242, 246, 1);
+    background-color:rgba(15, 32, 123, 1);    
 }
 
+.Title2 {
+    text-decoration: none;
+    color: #000000;
+    font-size: 1.444444rem;
+    }
+
 .project2 {
-    background-color:rgba(255, 255, 255, 1) ;
-}
+    background-color:rgba(255, 255, 255, 1);
+    }
 
 .project3 {
     background-color:rgba(255, 209, 221, 1);
@@ -97,11 +127,22 @@ color: #000;
 }
 
 .paragraph1 {
-    font-size: 1.2rem;
-    line-height: 2rem;
+    color: #fff;
+    font-size: 18px;
+    line-height: 34px;
     font-style: normal;
     font-weight: normal;
     font-family: 'PT Serif';
+    max-width: 25rem;
+}
+.paragraph2 {
+    color: #000000;
+    font-size: 18px;
+    line-height: 34px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: 'PT Serif';
+    max-width: 25rem;
 }
 
 .reading {
@@ -123,10 +164,6 @@ color: #000;
     font-size: 2.62rem;
     font-family: Poppins;
     letter-spacing: 1px;
-}
-
-.footer {
-
 }
 
 
@@ -156,5 +193,12 @@ color: #000;
     h1 { 
         font-size: 1.44rem;
     } 
+    h2 {
+        font-size: 1rem;
+    }
+
+    .project-content {
+        padding: 4rem;
     
+    }
 }
