@@ -32,7 +32,7 @@ h1, .title1 {
     letter-spacing: 1px;
 }
 
-h1, .menu, h2, .title1, .cta, .footer {
+h1, .menu, h2, .title1, .cta, .footer, .cta-project, .cta-project2 {
     font-family: 'Poppins';
 }
 
@@ -55,7 +55,7 @@ h1, .menu, h2, .title1, .cta, .footer {
 .wrapper {
     margin: 0 auto;
     max-width: 80rem; /* 1280px */
-    padding: 0 2rem;
+    padding: 0 5rem;
     width: 100%;
 }
 
@@ -79,7 +79,9 @@ h1, .menu, h2, .title1, .cta, .footer {
     display:inline-block;
     font-size: 1rem;
     margin: 1rem 0 0;
+    color: #D65775;
 }
+
 
 .menu-link:hover {
     color: #D65775;
@@ -102,10 +104,20 @@ font-size: 1.444444rem;
     background-color:rgba(15, 32, 123, 1);    
 }
 
+.cta-project {
+    font-size: 1rem;
+    color: #fff;
+}
+
 .Title2 {
     text-decoration: none;
     color: #000000;
     font-size: 1.444444rem;
+    }
+
+.cta-project2 {
+    font-size: 1rem;
+    color: #000000;
     }
 
 .project2 {
@@ -115,6 +127,7 @@ font-size: 1.444444rem;
 .project3 {
     background-color:rgba(100, 118, 200, 1);
 }
+
 
 .Title3 {
     text-decoration: none;
@@ -151,8 +164,12 @@ font-size: 1.444444rem;
     max-width: 25rem;
 }
 
+.project4 {
+    background-color: rgba(176, 218, 232, 1);
+}
+
 .reading {
-    max-width: 48.75rem; /* 780px */
+    max-width: 48.78rem; /* 780px */
 }
 
 .link {
@@ -161,13 +178,15 @@ font-size: 1.444444rem;
 
 .wrapper-footer {
     background-color: #1b1d1c;
-    padding: 4rem 2rem 10rem;
+    padding: 4rem 5rem 10rem;
     position: relative;
 }
 
 .wrapper-footer {
     color: #fff;
-    font-size: 2.62rem;
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: 1px;
     font-family: Poppins;
     letter-spacing: 1px;
 }

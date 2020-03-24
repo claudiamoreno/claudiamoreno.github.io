@@ -26,14 +26,14 @@
             <div class="wrapper"> 
                     <div class="intro-content reading">
                         <h1><span class="foo">Hey, I'm Claudia!</span></h1>
-                        <p class="title1">A Product Designer inspired by people and their stories.
+                        <p class="title1">A Product Designer inspired by people and their stories.<br>
                             I want to make the world a better place through design and empowerment.</p>
                     </div>
-                    <a class="cta" href="">Check out my work</a>
+                    <a class="cta js-anchor" href="#project1">Check out my work</a>
             </div>
         </section>
 
-            <section class="project project1">
+            <section class="project project1" id="project1">
                 <div class="wrapper-project">
                     <div class="project-content">
                         <img src="https://placehold.it/100x30" alt />
@@ -42,7 +42,7 @@
                         </a>
                         <p class="paragraph1"> Space Travel is for those who dare living such a unique experience: visiting Mars. This planet offers breathtaking landscapes and this one of a kind agency makes it happen. 
                         </p>
-                        <a class="cta" href="">
+                        <a class="cta-project" href="">
                             See Case Study
                         </a>
                     </div>
@@ -54,12 +54,14 @@
             <section class="project project2">
                 <div class="wrapper-project">
                     <div class="project-content">
-                        <img src="https://placehold.it/100x30" alt />
                         <a class="Title2" href="#">
                         <h2>What the health?</h2>
                         </a>
-                        <p class="paragraph2"> Helping the Medical Emergency System mobile app to make their users understand how they would receive medical support  
+                        <p class="paragraph2"> Helping the Medical Emergency System mobile app to make their users understand how they would receive medical support. 
                         </p>
+                        <a class="cta-project2" href="">
+                            See Case Study
+                        </a>
                     </div>
                     <div class="project-image">
                         <img src="https://placehold.it/900x400" alt />
@@ -69,12 +71,31 @@
             <section class="project project3">
                 <div class="wrapper-project">
                     <div class="project-content">
-                        <img src="https://placehold.it/100x30" alt />
-                        <a class="Title3" href="#">
-                        <h2>Who run the world? Girls!</h2>
+                        <a class="Title1" href="#">
+                        <h2>Girls run sports</h2>
                         </a>
-                        <p class="paragraph1">  
+                        <p class="paragraph1"> She is a machine is a platform that empowers women at sports. It  connects women that have a wide knowledge in sports with others that have issues and creates a mentoring relationship.
                         </p>
+                        <a class="cta-project" href="">
+                            See Case Study
+                        </a>
+                    </div>
+                    <div class="project-image">
+                        <img src="https://placehold.it/900x400" alt />
+                    </div>
+                </div>   
+            </section>
+            <section class="project project4">
+                <div class="wrapper-project">
+                    <div class="project-content">
+                        <a class="Title2" href="#">
+                        <h2>Make calls great again</h2>
+                        </a>
+                        <p class="paragraph2"> How might we make calls great again? Following Design Sprint Methodology to coming up a solution for such a challenge. 
+                        </p>
+                        <a class="cta-project2" href="">
+                            See Case Study
+                        </a>
                     </div>
                     <div class="project-image">
                         <img src="https://placehold.it/900x400" alt />
@@ -82,13 +103,30 @@
                 </div>   
             </section>
 
-     
-    </body>
+            <script
+                src="http://code.jquery.com/jquery-3.4.1.min.js"
+                integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+                crossorigin="anonymous">
+            </script>
+ 
+            <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+            <script>
+            $('.js-anchor').on('click'), function (event){
+                event.preventDefault();
+            
+            $('html, body').animate({
+                scrollTop: $('#project1').offset().top
+            }, 5000);
+ });
+
+</script>
+
+  </body>
     
     <footer>
         <div class="wrapper-footer">
         <div class="footer content">
-        <p class="footer"> Wanna know more? Download my<br>
+        <p class="footer"> Wanna know more? Download my
         <a class="link" href="#">resume</a> or get in touch!</p> 
         </div>
     </footer>
