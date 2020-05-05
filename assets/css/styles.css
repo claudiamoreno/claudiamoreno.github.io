@@ -30,7 +30,7 @@ h2, .intro {
     line-height: 1.3;
 }
 
-h1, .menu, h2, .intro, .cta, .footer, .cta-project {
+h1, .menu, h2, .intro, .cta, .footer, .cta-project, .menu-link {
     font-family: 'Poppins';
 }
 
@@ -42,7 +42,40 @@ h1, .menu, h2, .intro, .cta, .footer, .cta-project {
 }
 
 .header {
-    padding: 1rem 0;
+    align-items: center;
+    position: fixed;
+    height: 4.4rem;
+    width: 100%;
+    background:rgba(255, 255, 255, 0.9);
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.logo {
+    margin: 0 2rem;
+}
+
+.navigation {
+    position: fixed;
+    height: 100vh;
+    padding: 1rem;
+    top: 0;
+    left: 100%;
+    width: 100%;
+    background:rgba(255, 255, 255, 0.9);
+    transition: left 600ms ease-in-out;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+.menu-open .navigation {
+    left: 0;
 }
 
 .wrapper {
@@ -55,7 +88,7 @@ h1, .menu, h2, .intro, .cta, .footer, .cta-project {
 .hero {
     align-items: center;
     display: flex;
-    min-height: calc(100vh - 74px);
+    min-height: 100vh;
 }
 
 .menu {
@@ -222,19 +255,60 @@ display: inline-block;
     margin: 0 0 1rem;
 }
 
+.grid .cards {
+padding: 1rem;
+}
+
 .card {
     max-width: 317px;
     max-height: 276px;
 }
 
-.thumbnail {
-    display: block;
-    max-width: 100%;
-    margin: 0 0 1rem;
+.card1 {
+    background-color: rgba(15, 32, 123, 1);
 }
 
-@media (min-width: 35em) { /* 640px (640/18) Es lo que miden las fotos de ancho */
+.card2 {
+    background-color: rgba(229, 229, 229, 1);
+}
 
+.card3 {
+    background-color: rgba(100, 118, 200, 1);
+}
+
+.card img {
+    display: block;
+    max-width: 100%;
+    padding: .5rem;
+}
+
+.card__image {
+    margin: 0 auto;
+    width: 40%;
+}
+
+
+/* 640px (640/18) Es lo que miden las fotos de ancho */
+
+@media (min-width: 35em) { 
+
+    .burguer,
+    .navigation__close {
+        display: none;
+}
+
+    .navigation {
+        background: none;
+        height: auto;
+        position: initial;
+        width: auto;
+        display: flex;
+}
+
+.navigation__list {
+        display: flex;
+        align-items: center;
+}
     .grid {
         display: flex;
         align-items: flex-start;
@@ -258,6 +332,11 @@ display: inline-block;
 }
 
 @media (min-width: 50em) { /* 900px (900/18) */
+
+    .logo {
+        margin: 0 4rem;
+    }
+
     .wrapper-project {
         display: flex;
         padding: 10rem 2rem 10rem;
@@ -285,7 +364,7 @@ display: inline-block;
     }
 
     .wrapper {
-        padding: 0 5rem;
+        padding: 5rem;
     }
 
     .project-content {

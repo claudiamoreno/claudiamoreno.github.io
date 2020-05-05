@@ -9,3 +9,11 @@ $('.js-anchor').on('click', function(event) {
         1500
     );
 });
+
+$ ('.js-open').on('click', function(){
+    $('html').addClass('menu-open');
+});
+
+$ ('.js-close').on('click', function(){
+    $('html').removeClass('menu-open');
+});
