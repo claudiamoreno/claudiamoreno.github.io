@@ -45,6 +45,7 @@ h1, .menu, h2, .intro, .cta, .footer, .cta-project, .menu-link {
     align-items: center;
     position: fixed;
     height: 4.4rem;
+    z-index: 15;
     width: 100%;
     background:rgba(255, 255, 255, 0.9);
     display: flex;
@@ -180,6 +181,10 @@ display: inline-block;
     padding: 2rem;
 }
 
+.project-image {
+    padding: 0 3rem;
+}
+
 .paragraph1 {
     color: #fff;
     font-size: 18px;
@@ -247,7 +252,6 @@ display: inline-block;
 /* aquí empieza WORK */
 
 .work-projects {
-    top: 50%;
     align-items: center;
     display: grid;
     min-height: 100vh;
@@ -301,17 +305,28 @@ display: inline-block;
 
 .billboard {
     background: rgba(176, 218, 232, 1);
-    height: 100vh;
+    height: 110vh;
 }
+
+.wrapper-billboard {
+    display: block;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    min-width: 40rem;
+}
+
 
 .title-billboard {
 color: #000000;
-display: block;
-position: absolute;
-left: 50%;
-top: 50%;
-transform: translate(-50%, -50%);
+font-family: 'Poppins';
 }
+
+.subtitle-billboard {
+    font-family: 'PT Serif';
+}
+
 
 /* 640px (640/18) Es lo que miden las fotos de ancho */
 
@@ -412,5 +427,9 @@ transform: translate(-50%, -50%);
 
     .wrapper-project {
         padding: 5rem 1rem;
+    }
+
+    .wrapper-casestudy {
+        padding: 3rem 1rem;
     }
 }
