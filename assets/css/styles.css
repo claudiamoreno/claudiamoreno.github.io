@@ -19,7 +19,6 @@ html, body {
     margin: 0;
     padding: 0;
     font-size: 18px;
-    overflow-x: hidden;
 }
 
 body {
@@ -74,9 +73,41 @@ ul {
     list-style: none;
     padding: 0;
     margin: 0;
-
 }
 
+.hamburguer-bt {
+    cursor: pointer;
+    height: 60px;
+    position: absolute;
+    right: 9%;
+    top: 50%;
+    width: 60px;
+    margin-top: -9px;
+    transition: all 0.2s ease-out;
+    z-index: 1;
+}
+  
+.hamburguer-bt .hamburguer-bt__stripe {
+    width: 38.44px;
+    height: 7px;
+    background: black;
+    margin: 7px auto;
+    transition: all 0.3s;
+    backface-visibility: hidden;
+} 
+
+.hamburguer-bt.on .hamburguer-bt__stripe__top {
+    transform: rotate(45deg) translate(7px, 7px);
+}
+  
+.hamburguer-bt.on .hamburguer-bt__stripe__middle {
+    opacity: 0;
+}
+  
+.hamburguer-bt.on .hamburguer-bt__stripe__bottom {
+    transform: rotate(-45deg) translate(13px, -13px);
+}
+  
 .menu-open .navigation {
     left: 0;
 }
