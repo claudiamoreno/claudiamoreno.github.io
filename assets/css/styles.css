@@ -341,30 +341,31 @@ display: inline-block;
 
 /* aquí empieza las pags de PROYECTOS */
 
+
 .billboard {
-    margin-top: 5rem;
-    background: rgba(176, 218, 232, 1);
+    background: lightblue;
     height: 110vh;
 }
 
-.wrapper-billboard {
-    display: block;
-    left: 50%;
+.billboard__wrapper {
+    height: 70%;
+    position: relative;
+    overflow: hidden;
+}
+
+.billboard__wrapper img {
     top: 50%;
+    left: 50%;
     position: absolute;
-    transform: translate(-50%, -50%);
+    transform: translate(-350px, -255px);
     min-width: 40rem;
 }
 
-
-.title-billboard {
-color: #000000;
-font-family: 'Poppins';
+.billboard__content {
+    height: 30%;
+    padding: 2rem 1rem;
 }
 
-.subtitle-billboard {
-    font-family: 'PT Serif';
-}
 
 
 /* 640px (640/18) Es lo que miden las fotos de ancho */
@@ -409,6 +410,7 @@ font-family: 'Poppins';
     .grid_column {
         width: calc((100% - 2rem) / 3);
 }
+
 }
 
 @media (min-width: 50em) { /* 900px (900/18) */
@@ -470,5 +472,15 @@ font-family: 'Poppins';
 
     .wrapper-casestudy {
         padding: 3rem 1rem;
+    }
+
+    .billboard__wrapper {
+        height: 90%;
+    
+    }
+    
+    .billboard__wrapper img {
+        min-width: 30rem;
+        transform: translate(-350px, -225px);
     }
 }
