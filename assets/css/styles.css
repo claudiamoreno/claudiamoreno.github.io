@@ -334,10 +334,17 @@ display: inline-block;
     width: 40%;
 }
 
+.aboutme {
+    display: block;
+}
+
 .hero-about {
     margin-top: 5rem;
 }
 
+.content-about {
+    padding: 3rem 2rem;
+}
 
 /* aquí empieza las pags de PROYECTOS */
 
@@ -400,6 +407,27 @@ display: inline-block;
         width: calc((100% - 1rem) / 2);
 
 }
+
+.aboutme {
+    align-items: flex-start;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 1rem 5rem;
+    flex-wrap: wrap;
+}
+
+.hero-about {
+    flex: 1 1 auto;
+    width: 40%;
+}
+
+.content-about {
+    padding: 0 2rem;
+    display: block;
+    margin-top: 5rem;
+    flex: 1 1 auto;
+}
+
 }
 
 @media (min-width: 49em) { /* 768px */
