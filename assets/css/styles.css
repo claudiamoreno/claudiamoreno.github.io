@@ -282,7 +282,7 @@ display: inline-block;
 
 /* hasta aquí la HOME */
 
-/* aquí empieza WORK y ABOUT*/
+/* aquí empieza MOBILE WORK y ABOUT*/
 
 .work-projects {
     margin-top: 5rem;
@@ -346,16 +346,16 @@ display: inline-block;
     padding: 3rem 2rem;
 }
 
-/* aquí empieza las pags de PROYECTOS */
+/* aquí empieza las pags de MOBILE PROYECTOS */
 
 
 .billboard {
     background: lightblue;
-    height: 110vh;
+    height: 115vh;
 }
 
 .billboard__wrapper {
-    height: 70%;
+    height: 75%;
     position: relative;
     overflow: hidden;
 }
@@ -369,12 +369,12 @@ display: inline-block;
 }
 
 .billboard__content {
-    height: 30%;
-    padding: 2rem 1rem;
+    
+    padding: 0 3rem;
 }
 
 
-
+/* ¡¡¡¡¡¡¡¡¡¡¡¡¡ DEKTOP !!!!!!!!!!!!!!!!!!!!!!! */
 /* 640px (640/18) Es lo que miden las fotos de ancho */
 
 @media (min-width: 35em) { 
@@ -502,13 +502,23 @@ display: inline-block;
         padding: 3rem 1rem;
     }
 
+    .billboard {
+        height: 135vh;
+    }
+
     .billboard__wrapper {
-        height: 80%;
+        height: 75%;
     
     }
     
     .billboard__wrapper img {
         min-width: 30rem;
         transform: translate(-350px, -235px);
+    }
+
+    .billboard__content {
+        padding: 0 12rem;
+        max-width: 52rem;
+        margin: 0 auto;
     }
 }
