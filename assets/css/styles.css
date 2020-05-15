@@ -503,12 +503,12 @@ display: inline-block;
     }
 
     .billboard__wrapper {
-        height: 90%;
+        height: 80%;
     
     }
     
     .billboard__wrapper img {
         min-width: 30rem;
-        transform: translate(-350px, -225px);
+        transform: translate(-350px, -235px);
     }
 }
