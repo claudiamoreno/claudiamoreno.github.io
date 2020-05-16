@@ -373,6 +373,16 @@ display: inline-block;
     padding: 0 3rem;
 }
 
+.container-flex {
+    padding: 3rem 1rem;
+}
+
+.column-flex {
+    padding: 2rem;
+}
+
+
+
 
 /* ¡¡¡¡¡¡¡¡¡¡¡¡¡ DEKTOP !!!!!!!!!!!!!!!!!!!!!!! */
 /* 640px (640/18) Es lo que miden las fotos de ancho */
@@ -517,8 +527,12 @@ display: inline-block;
     }
 
     .billboard__content {
-        padding: 0 12rem;
-        max-width: 52rem;
+        padding: 0 14rem;
+        max-width: 53rem;
         margin: 0 auto;
+    }
+
+    .subtitle-billboard {
+        font-size: 23px;
     }
 }
