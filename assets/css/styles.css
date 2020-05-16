@@ -227,7 +227,7 @@ display: inline-block;
     font-family: 'PT Serif';
     max-width: 25rem;
 }
-.paragraph2 {
+.paragraph2, .paragraph-long {
     color: #000000;
     font-size: 18px;
     line-height: 34px;
@@ -373,14 +373,17 @@ display: inline-block;
     padding: 0 3rem;
 }
 
+.casestudy-context {
+    padding: 0 3rem;
+}
+
 .container-flex {
-    padding: 3rem 1rem;
+    padding-top: 1rem;
 }
 
-.column-flex {
-    padding: 2rem;
+.column-flex, .full-paragraph, .img-project{
+    padding-top: 2rem;
 }
-
 
 
 
@@ -535,4 +538,41 @@ display: inline-block;
     .subtitle-billboard {
         font-size: 23px;
     }
+
+    .casestudy-context {
+        padding: 0 6rem;
+    }
+
+    .container-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    }
+
+    .column-flex {
+        width: 50%;
+        padding: 5rem 3rem 0;
+    }
+
+    .full-paragraph {
+        padding: 4rem 3rem 0;
+        width: 100%;
+    }
+    
+    .paragraph-long {
+        max-width: 50rem;
+        color: #000000;
+        font-size: 18px;
+        line-height: 34px;
+        font-style: normal;
+        font-weight: normal;
+        font-family: 'PT Serif';
+    }
+
+    .img-project {
+        padding: 4rem 4rem 0;
+    }
 }
+
+
+
