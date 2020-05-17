@@ -570,7 +570,9 @@ display: inline-block;
     }
 
     .img-project {
-        padding: 4rem 4rem 0;
+        padding: 4rem 7rem 0;
+        display: block;
+        min-width: 800px;
     }
 }
 
