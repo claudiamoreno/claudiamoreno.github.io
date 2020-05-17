@@ -274,7 +274,9 @@ display: inline-block;
 
 .social1, .social2 {
     padding-left: 1rem;
+    text-decoration: none;
 }
+
 
 .copyright {
     font-family: 'PT Serif';
