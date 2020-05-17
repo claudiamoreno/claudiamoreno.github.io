@@ -511,7 +511,7 @@ h3 {
 @media (min-width: 50em) { /* 900px (900/18) */
 
     .logo {
-        margin: 0 4rem;
+        margin: 0 4rem 1rem;
     }
 
     .wrapper-project {
