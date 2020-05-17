@@ -19,6 +19,7 @@ html, body {
     margin: 0;
     padding: 0;
     font-size: 18px;
+    overflow-x: hidden;
 }
 
 body {
@@ -417,6 +418,29 @@ h3 {
     padding-top: 3rem;
 }
 
+.scrollh {
+    margin: 0 0 2rem;
+    overflow: hidden;
+}
+
+.scrollh__content {
+    box-sizing: content-box;
+    overflow: auto;
+    padding-bottom: 20px;
+}
+
+.scrollh__content ul {
+    display: flex;
+}
+
+.scrollh__content li {
+    min-width: 202px;
+    margin-right: 1.5rem;
+}
+
+.popup {
+    margin: 0;
+}
 
 /* ¡¡¡¡¡¡¡¡¡¡¡¡¡ DEKTOP !!!!!!!!!!!!!!!!!!!!!!! */
 /* 640px (640/18) Es lo que miden las fotos de ancho */
@@ -610,6 +634,15 @@ h3 {
         padding: 0 6rem 6rem;    
     }
 
+    .responsive.scrollh {
+        overflow: initial;
+        height: auto;
+    }
+
+    .responsive.scrollh .scrollh__content {
+        box-sizing: border-box;
+        padding-bottom: 0;
+    }
 
 }
 
