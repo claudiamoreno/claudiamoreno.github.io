@@ -1,0 +1,716 @@
+* {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+h1, ul, ol, p {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'PT Serif';
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+}
+
+body {
+    background-color: #fff;
+}
+
+h2, .intro {
+    font-size: 1.5rem;
+    line-height: 1.3;
+}
+
+h1, .menu, h2, h3, .intro, .cta, .footer, .cta-project, .menu-link, .card_content {
+    font-family: 'Poppins';
+}
+
+.foo {
+    display: block;
+    font-weight: 600;
+    font-size: 20px;
+    margin: 0 0 .5rem;
+}
+
+.header {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: fixed;
+    height: 4.4rem;
+    z-index: 15;
+    width: 100%;
+    background:rgba(255, 255, 255, 0.9);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 1rem;
+    top: 0;
+}
+
+.logo {
+    margin: 0 2rem .5rem;
+}
+
+.navigation {
+    position: fixed;
+    height: 100vh;
+    padding: 1rem;
+    top: 0;
+    left: 100%;
+    width: 100%;
+    background:rgba(255, 255, 255, 0.9);
+    -webkit-transition: left 600ms ease-in-out;
+    transition: left 600ms ease-in-out;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.hamburguer-bt {
+    cursor: pointer;
+    height: 60px;
+    position: absolute;
+    right: 9%;
+    top: 50%;
+    width: 60px;
+    margin-top: -18px;
+    -webkit-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+    z-index: 1;
+}
+  
+.hamburguer-bt .hamburguer-bt__stripe {
+    width: 38.44px;
+    height: 7px;
+    background: black;
+    margin: 7px auto;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+} 
+
+.hamburguer-bt.on .hamburguer-bt__stripe__top {
+    -webkit-transform: rotate(45deg) translate(7px, 7px);
+            transform: rotate(45deg) translate(7px, 7px);
+}
+  
+.hamburguer-bt.on .hamburguer-bt__stripe__middle {
+    opacity: 0;
+}
+  
+.hamburguer-bt.on .hamburguer-bt__stripe__bottom {
+    -webkit-transform: rotate(-45deg) translate(13px, -13px);
+            transform: rotate(-45deg) translate(13px, -13px);
+}
+  
+.menu-open .navigation {
+    left: 0;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 80rem; /* 1280px */
+    padding: 0 3rem;
+    width: 100%;
+}
+
+.hero {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    min-height: 100vh;
+}
+
+.menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    list-style: none;
+}
+
+.menu-link {
+    font-size: 1.7rem;
+    list-style: none;
+    font-weight: bold;
+    padding: 0 2.13rem;
+    text-decoration: none;
+    color: black;
+    -webkit-transition: color 150ms ease-in-out;
+    transition: color 150ms ease-in-out;
+}
+
+.cta {
+    display:inline-block;
+    font-size: 1.2rem;
+    margin: 1rem 0 0;
+    color: #D65775;
+}
+
+.scroll {
+    margin: .5rem;
+}
+
+
+.menu-link:hover {
+    color: #D65775;
+}
+
+.Title1 {
+text-decoration: none;
+color: #fff;
+}
+
+.project {
+    min-height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.project1 {
+    background-color:rgba(15, 32, 123, 1);    
+}
+
+.cta-project {
+font-size: 1rem;
+margin: 1rem 0 0;
+display: inline-block;
+}
+
+.cta-project1 {
+    color: #fff;
+}
+
+.Title2 {
+    text-decoration: none;
+    color: #000000;
+    }
+
+.cta-project2 {
+    color: #000000;
+    }
+
+.project2 {
+    background-color:rgba(255, 255, 255, 1);
+    }
+
+.project3 {
+    background-color:rgba(100, 118, 200, 1);
+}
+
+.project3 img {
+    width: 250px;
+}
+
+
+.Title3 {
+    text-decoration: none;
+    color: #fff;
+    }
+
+.wrapper-project {
+    padding: 3rem 1rem;
+}
+
+.project-content {
+    padding: 2rem;
+}
+
+.project-image {
+    padding: 0 3rem;
+}
+
+.paragraph1 {
+    color: #fff;
+    font-size: 18px;
+    line-height: 34px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: 'PT Serif';
+    max-width: 25rem;
+}
+.paragraph2, .paragraph-long {
+    color: #000000;
+    font-size: 18px;
+    line-height: 34px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: 'PT Serif';
+    max-width: 25rem;
+}
+
+.project4 {
+    background-color: rgba(176, 218, 232, 1);
+}
+
+.reading {
+    max-width: 48.78rem; /* 780px */
+}
+
+.link {
+    color:#D65775;
+}
+
+.wrapper-footer {
+    background-color: #000000;
+    padding: 3rem 2.5rem 6rem;
+    position: relative;
+}
+
+.footer {
+    color: #fff;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 600;
+    font-family: Poppins;
+}
+
+.container-icons {
+    margin: 2rem 0;
+    display: block;
+}
+
+.social1, .social2 {
+    padding-left: 1rem;
+    text-decoration: none;
+}
+
+
+.copyright {
+    font-family: 'PT Serif';
+    font-size: 0.9rem;
+    letter-spacing: 0.03rem;
+    line-height: 1.2rem;
+    color: #fff;
+}
+
+/* hasta aquí la HOME */
+
+/* aquí empieza MOBILE WORK y ABOUT*/
+
+.work-projects {
+    margin-top: 5rem;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -ms-grid;
+    display: grid;
+    min-height: 100vh;
+}
+
+.cards {
+    padding: 0 3rem;
+}
+
+.grid_column {
+    margin: 0 0 1rem;
+    min-height: 5.5rem;
+}
+
+.film {
+    display: block;
+    max-width: 100%;
+    margin: 0 0 1rem;
+}
+
+.card {
+    max-width: 317px;
+    max-height: 276px;
+}
+
+.card1 {
+    background-color: rgba(15, 32, 123, 1);
+}
+
+.card2, .card6 {
+    background-color: rgba(229, 229, 229, 1);
+}
+
+.card3 {
+    background-color: rgba(100, 118, 200, 1);
+}
+
+.card4 {
+background-color: rgba(176, 218, 232, 1) ;
+}
+
+.card5 {
+background-color: rgba(255, 140, 97, 1);
+}
+
+.card img {
+    display: block;
+    max-width: 100%;
+    padding: .5rem;
+}
+
+.card4 img{
+    width: 100%;
+    padding: 1rem 0 .1rem;
+}
+
+.card__image {
+    margin: 0 auto;
+    width: 40%;
+}
+
+.card_content {
+    margin-top: 1.5rem;
+    margin-bottom: 2.5rem;
+}
+
+
+.aboutme {
+    display: block;
+}
+
+.hero-about {
+    margin-top: 5rem;
+}
+
+.content-about {
+    padding: 3rem 2rem;
+}
+
+.cta-about:hover {
+    color: #D65775;
+}
+
+/* aquí empieza las pags de MOBILE PROYECTOS */
+
+
+.billboard {
+    background: lightblue;
+    height: 135vh;
+}
+
+.billboard__wrapper {
+    height: 75%;
+    position: relative;
+    overflow: hidden;
+}
+
+.billboard__wrapper img {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    -webkit-transform: translate(-350px, -255px);
+            transform: translate(-350px, -255px);
+    min-width: 40rem;
+}
+
+.billboard__content {
+    
+    padding: 0 3rem;
+}
+
+.casestudy-context {
+    padding: 0 3rem 3rem;
+}
+
+.container-flex {
+    padding-top: 1rem;
+}
+
+.column-flex, .full-paragraph, .img-project{
+    padding-top: 2rem;
+}
+
+.casestudy-solution {
+    padding: 0 3rem;
+    background: lightblue;
+}
+
+h3 {
+    padding-top: 3rem;
+}
+
+.scrollh {
+    margin: 0 0 2rem;
+    overflow: hidden;
+}
+
+.scrollh__content {
+    -webkit-box-sizing: content-box;
+            box-sizing: content-box;
+    overflow: auto;
+    padding-bottom: 20px;
+}
+
+.scrollh__content ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.scrollh__content li {
+    min-width: 202px;
+    margin-right: 1.5rem;
+}
+
+.popup {
+    margin: 0;
+}
+
+/* ¡¡¡¡¡¡¡¡¡¡¡¡¡ DEKTOP !!!!!!!!!!!!!!!!!!!!!!! */
+/* 640px (640/18) Es lo que miden las fotos de ancho */
+
+@media (min-width: 35em) { 
+
+    .burguer,
+    .navigation__close {
+        display: none;
+}
+
+    .navigation {
+        background: none;
+        height: auto;
+        position: initial;
+        width: auto;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+}
+
+.navigation__list {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+}
+
+    .grid {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: start;
+            -ms-flex-align: start;
+                align-items: flex-start;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+}
+    .grid_column {
+        width: calc((100% - 1rem) / 2);
+
+}
+
+.aboutme {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin: 0 1rem 5rem;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+}
+
+.hero-about {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 auto;
+            flex: 1 1 auto;
+    width: 40%;
+    padding: 0 2rem;
+}
+
+.content-about {
+    padding: 0 3rem;
+    display: block;
+    margin-top: 5rem;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 auto;
+            flex: 1 1 auto;
+}
+
+}
+
+@media (min-width: 49em) { /* 768px */
+    .wrapper-project {
+        padding: 7rem 2rem;
+    }
+
+    .grid_column {
+        width: calc((100% - 2rem) / 3);
+}
+
+}
+
+@media (min-width: 50em) { /* 900px (900/18) */
+
+    .logo {
+        margin: 0 4rem 1rem;
+    }
+
+    .wrapper-project {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        padding: 10rem 2rem 10rem;
+        max-width: 1500;
+    }
+
+    .project-content {
+        width: 60%;
+    }
+
+    .project-image {
+        width: 40%;
+    }
+
+    .foo { 
+        font-size: 26px;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    .intro {
+        font-size: 2rem;
+    }
+
+    .wrapper {
+        padding: 5rem;
+    }
+
+    .project-content {
+        padding: 4rem;
+    }
+
+    .wrapper-footer {
+        font-size: 2rem;
+        padding: 4rem 5rem 10rem;
+    }
+    
+    .footer {
+        font-size: 2rem;
+    }
+
+    .copyright {
+        font-size: 1rem;
+    }
+
+    .wrapper-project {
+        padding: 5rem 1rem;
+    }
+
+    .wrapper-casestudy {
+        padding: 3rem 1rem;
+    }
+
+    .billboard {
+        height: 135vh;
+    }
+
+    .billboard__wrapper {
+        height: 75%;
+    
+    }
+    
+    .billboard__wrapper img {
+        min-width: 30rem;
+        -webkit-transform: translate(-350px, -235px);
+                transform: translate(-350px, -235px);
+    }
+
+    .billboard__content {
+        padding: 0 14rem;
+        max-width: 53rem;
+        margin: 0 auto;
+    }
+
+    .subtitle-billboard {
+        font-size: 23px;
+    }
+
+    .casestudy-context {
+        padding: 0 6rem 6rem;
+    }
+
+    .container-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    }
+
+    .column-flex {
+        width: 50%;
+        padding: 5rem 3rem 0;
+    }
+
+    .full-paragraph {
+        padding: 4rem 3rem 0;
+        width: 100%;
+    }
+    
+    .paragraph-long {
+        max-width: 50rem;
+        color: #000000;
+        font-size: 18px;
+        line-height: 34px;
+        font-style: normal;
+        font-weight: normal;
+        font-family: 'PT Serif';
+    }
+
+    .img-project {
+        padding: 4rem 7rem 0;
+        display: block;
+        min-width: 800px;
+    }
+
+    .casestudy-solution {
+        padding: 0 6rem 3rem;    
+    }
+
+    .responsive.scrollh {
+        overflow: initial;
+        height: auto;
+    }
+
+    .responsive.scrollh .scrollh__content {
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+        padding-bottom: 0;
+    }
+
+}
