@@ -371,6 +371,10 @@ background-color: rgba(255, 140, 97, 1);
     padding: 3rem 2rem;
 }
 
+.cta-about:hover {
+    color: #D65775;
+}
+
 /* aquí empieza las pags de MOBILE PROYECTOS */
 
 
@@ -488,10 +492,11 @@ h3 {
 .hero-about {
     flex: 1 1 auto;
     width: 40%;
+    padding: 0 2rem;
 }
 
 .content-about {
-    padding: 0 2rem;
+    padding: 0 3rem;
     display: block;
     margin-top: 5rem;
     flex: 1 1 auto;
