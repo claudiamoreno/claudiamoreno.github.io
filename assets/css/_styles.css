@@ -441,7 +441,8 @@ background-color: rgba(255, 140, 97, 1);
 }
 
 .img-project-horizontal {
-    padding: 2 0 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 .casestudy-solution {
@@ -700,6 +701,10 @@ h3 {
         padding: 4rem 7rem 0;
         display: block;
         min-width: 800px;
+    }
+
+    .img-project-horizontal {
+        padding: 2rem 0 2rem;
     }
 
     .casestudy-solution {
