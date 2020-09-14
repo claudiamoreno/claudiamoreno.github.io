@@ -453,6 +453,10 @@ h3 {
     padding-top: 3rem;
 }
 
+.subtitle {
+    padding-top: 0.5rem;
+}
+
 .scrollh {
     margin: 0 0 2rem;
     overflow: hidden;
@@ -704,6 +708,10 @@ h3 {
 
     .img-project-mid {
         padding: 2rem 0 2rem;
+    }
+
+    .subtitle {
+        padding-top: 1rem;
     }
 
     .casestudy-solution {
