@@ -440,6 +440,10 @@ background-color: rgba(255, 140, 97, 1);
     padding-top: 2rem;
 }
 
+.img-project-horizontal {
+    padding: 2 0 2rem;
+}
+
 .casestudy-solution {
     padding: 0 3rem;
     background: lightblue;
