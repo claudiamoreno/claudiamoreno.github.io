@@ -440,6 +440,10 @@ background-color: rgba(255, 140, 97, 1);
     padding-top: 2rem;
 }
 
+.mini-paragraph {
+    padding-top: 1rem;
+}
+
 .img-project-mid {
     padding: 1rem 0 1rem;
 }
@@ -698,6 +702,11 @@ h3 {
         font-style: normal;
         font-weight: normal;
         font-family: 'PT Serif';
+    }
+
+    .mini-paragraph {
+        padding: 0 3rem 0;
+        width: 100%;
     }
 
     .img-project {
