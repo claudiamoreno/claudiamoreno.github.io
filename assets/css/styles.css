@@ -457,10 +457,6 @@ h3 {
     padding-top: 0.5rem;
 }
 
-.mini-titulo {
-    padding-top: 1rem;
-}
-
 .scrollh {
     margin: 0 0 2rem;
     overflow: hidden;
@@ -716,10 +712,6 @@ h3 {
 
     .subtitle {
         padding-top: 1rem;
-    }
-
-    .mini-titulo {
-        padding-top: 2rem;
     }
 
     .casestudy-solution {
