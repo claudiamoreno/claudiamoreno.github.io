@@ -407,11 +407,11 @@ background-color: rgba(255, 140, 97, 1);
     height: 135vh;
 }
 
-.billboard .calls-hero {
+.billboard.calls-hero {
     background: lightblue;
 }
 
-.billboard .olympias-hero {
+.billboard.olympias-hero {
     background: #9976C4;
 }
 
