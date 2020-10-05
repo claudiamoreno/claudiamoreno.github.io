@@ -405,14 +405,7 @@ background-color: rgba(255, 140, 97, 1);
 
 .billboard {
     height: 135vh;
-}
-
-.billboard .calls {
-    background-color: lightblue;
-}
-
-.billboard .olympias {
-    background-color: #9976C4;
+    background: lightblue;
 }
 
 .billboard__wrapper {
