@@ -351,7 +351,7 @@ display: inline-block;
 }
 
 .card3 {
-    background-color: #c5c9f7;
+    background-color: rgba(183, 186, 231, 1);
 }
 
 .card4 {
@@ -412,7 +412,7 @@ background-color: rgba(255, 140, 97, 1);
 }
 
 .billboard.olympias-hero {
-    background: #c5c9f7;
+    background: rgba(183, 186, 231, 1);
 }
 
 
