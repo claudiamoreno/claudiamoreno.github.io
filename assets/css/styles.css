@@ -408,11 +408,11 @@ background-color: rgba(255, 140, 97, 1);
 }
 
 .billboard .calls {
-    background: lightblue;
+    background-color: lightblue;
 }
 
 .billboard .olympias {
-    background: #9976C4;
+    background-color: #9976C4;
 }
 
 .billboard__wrapper {
@@ -495,7 +495,7 @@ h3 {
     margin: 0;
 }
 
-/* ¡¡¡¡¡¡¡¡¡¡¡¡¡ DEKTOP !!!!!!!!!!!!!!!!!!!!!!! */
+/* ¡¡¡¡¡¡¡¡¡¡¡¡¡ DESKTOP !!!!!!!!!!!!!!!!!!!!!!! */
 /* 640px (640/18) Es lo que miden las fotos de ancho */
 
 @media (min-width: 35em) { 
