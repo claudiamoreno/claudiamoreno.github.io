@@ -403,9 +403,16 @@ background-color: rgba(255, 140, 97, 1);
 /* aquí empieza las pags de MOBILE PROYECTOS */
 
 
-.billboard {
-    background: lightblue;
+#billboard {
     height: 135vh;
+}
+
+#billboard .calls {
+    background: lightblue;
+}
+
+#billboard .olympias {
+    background: #9976C4;
 }
 
 .billboard__wrapper {
