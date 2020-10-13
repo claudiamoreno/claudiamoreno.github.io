@@ -412,9 +412,12 @@ background-color: rgba(255, 140, 97, 1);
 }
 
 .billboard.olympias-hero {
-    background: rgba(183, 186, 231, 1);
+    background: rgba(245, 218, 170, 1);
 }
 
+.billboard.qually-hero {
+    background: ;
+}
 
 .billboard__wrapper {
     height: 75%;
