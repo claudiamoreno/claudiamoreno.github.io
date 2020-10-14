@@ -222,6 +222,11 @@ display: inline-block;
     background-color: rgba(183, 186, 231, 1);
 }
 
+.project3 img {
+    width: 250px;
+} 
+
+
 .Title3 {
     text-decoration: none;
     color: #fff;
@@ -494,7 +499,7 @@ h3 {
     margin: 0;
 }
 
-/* ¡¡¡¡¡¡¡¡¡¡¡¡¡ DESKTOP !!!!!!!!!!!!!!!!!!!!!!! */
+/* ¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡ DESKTOP !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 /* 640px (640/18) Es lo que miden las fotos de ancho */
 
 @media (min-width: 35em) { 
@@ -597,6 +602,7 @@ h3 {
         display: -ms-flexbox;
         display: flex;
         max-width: 1500;
+        padding: 5rem 0 0 1rem;
     }
 
     .project-content {
@@ -604,11 +610,11 @@ h3 {
     }
 
     .project-image {
-        width: 40%;
+        width: 55%;
     }
     
     .wrapper-photo {
-        width: 40%;
+        width: 45%;
         overflow: hidden;
     }
 
@@ -649,10 +655,6 @@ h3 {
 
     .copyright {
         font-size: 1rem;
-    }
-
-    .wrapper-project {
-        padding: 5rem 1rem;
     }
 
     .wrapper-casestudy {
