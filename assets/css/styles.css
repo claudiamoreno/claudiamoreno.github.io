@@ -612,6 +612,12 @@ h3 {
     .project-image {
         width: 40%;
     }
+    
+    .project-image2 img {
+        min-width: 30rem;
+        -webkit-transform: translate(-350px, -235px);
+                transform: translate(-350px, -235px);
+    }
 
     .foo { 
         font-size: 26px;
