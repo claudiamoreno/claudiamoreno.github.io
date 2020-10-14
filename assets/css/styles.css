@@ -614,7 +614,7 @@ h3 {
     }
     
     .wrapper-photo {
-        position: relative;
+        width: 40%;
         overflow: hidden;
     }
 
