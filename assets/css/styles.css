@@ -597,6 +597,8 @@ h3 {
         display: -ms-flexbox;
         display: flex;
         max-width: 1500;
+        padding: 5rem 0 0 1rem;
+
     }
 
     .project-content {
@@ -649,10 +651,6 @@ h3 {
 
     .copyright {
         font-size: 1rem;
-    }
-
-    .wrapper-project {
-        padding: 5rem 1rem;
     }
 
     .wrapper-casestudy {
