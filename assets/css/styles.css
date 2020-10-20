@@ -686,6 +686,10 @@ h3 {
         padding: 0 6rem 6rem;
     }
 
+    .content-margin {
+    padding: 4rem 3rem 0;
+    }
+
     .container-flex {
     display: -webkit-box;
     display: -ms-flexbox;
