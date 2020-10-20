@@ -755,19 +755,15 @@ h3 {
     align-items: flex-end;
     justify-content: space-between;
     font-weight: 600;
-    font-size: 26px;
     position: relative;
-    color: inherit;
 }
 
 .page1 {
     padding: 0 3% 0 27%;
-    width: 50%;
 }
 
 .page2 {
     padding: 0 27% 0 3%;
-    width: 50%;
 }
 
     .responsive.scrollh {
