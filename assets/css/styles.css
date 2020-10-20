@@ -750,11 +750,11 @@ h3 {
     }
 
 .container-pages {
+    padding-top: 6rem;
     text-align: center;
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
-    font-weight: 600;
     position: relative;
 }
 
