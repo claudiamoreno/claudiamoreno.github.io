@@ -741,6 +741,10 @@ h3 {
         padding: 2rem 0 2rem;
     }
 
+    .img-project-mid.bgcolor {
+    background: lightgray;
+    }
+
     .subtitle {
         padding-top: 1rem;
     }
