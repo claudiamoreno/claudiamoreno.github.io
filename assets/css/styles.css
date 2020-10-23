@@ -447,6 +447,10 @@ background-color: rgba(255, 140, 97, 1);
     padding-top: 2rem;
 }
 
+.full-paragraph.bgcolor {
+    background: rgba(255, 239, 209, 1);
+}
+
 .mini-paragraph {
     padding-top: 1rem;
 }
