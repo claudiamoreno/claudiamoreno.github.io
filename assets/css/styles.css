@@ -620,8 +620,8 @@ h3 {
 
     .project-image-big img {
         min-width: 35rem;
-        -webkit-transform: translate(-5px, 0px);
-                transform: translate(-5px, 0px);
+        -webkit-transform: translate(5px, 0px);
+                transform: translate(5px, 0px);
     }
 
     .foo { 
