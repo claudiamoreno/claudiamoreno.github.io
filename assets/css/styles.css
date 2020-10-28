@@ -222,6 +222,10 @@ display: inline-block;
     background-color: rgba(183, 186, 231, 1);
 }
 
+.project1 {
+    background-color: rgba(235, 249, 195, 1);
+}
+
 
 .Title3 {
     text-decoration: none;
@@ -413,6 +417,10 @@ background-color: rgba(255, 140, 97, 1);
 
 .billboard.qadis-hero {
     background:  rgba(255, 239, 209, 1);
+}
+
+.billboard.vinted-hero {
+    background: rgba(235, 249, 195, 1);
 }
 
 .billboard__wrapper {
