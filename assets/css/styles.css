@@ -369,8 +369,9 @@ background-color: rgba(255, 140, 97, 1);
 }
 
 .card2 img {
-    width: 60%;
+    width: 50%;
     display: block;
+    padding: .5rem;
 }
 
 .card4 img{
