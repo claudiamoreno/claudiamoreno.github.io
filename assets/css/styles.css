@@ -627,6 +627,10 @@ h3 {
     .project-image {
         width: 45%;
     }
+
+    .project-image.vintedproject {
+        width: 60%;
+    }
     
     .wrapper-photo {
         width: 45%;
